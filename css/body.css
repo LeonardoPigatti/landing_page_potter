@@ -3,4 +3,10 @@ body {
     background: linear-gradient(90deg, #000, #000D 35%, #0000  ),url(../img/harry-back.jpg);
     background-repeat: no-repeat;
     background-size:cover;
+    display: flex;
+    flex-direction: column;
+    padding: 70px 100px 40px 100px;
 }
+
+
+

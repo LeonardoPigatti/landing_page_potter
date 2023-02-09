@@ -1,0 +1,23 @@
+header{
+    
+   display: flex;
+   justify-content: space-between;
+
+}
+.log{
+    height: 36px;
+}
+.link-container{
+    display: flex;
+    gap:25px
+}
+.link-container a {
+    text-shadow: 2px 2px 4px #e0c056;
+    padding: 6px;
+    transition: all .7s;
+    
+}
+
+.link-container a:hover{
+    background-color: #bdbdbd;
+}

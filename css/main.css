@@ -1,0 +1,44 @@
+main{
+    
+    flex-grow: 1;
+    display: flex;
+}
+.content-container{
+    
+    flex-grow: 1;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    color: beige;
+
+}
+.content-container h1{
+    font-size: 7rem;
+    color: beige;
+}
+.social-content {
+    background-color: lightgreen;
+    width: 48px;
+}
+.movie-text{
+    width: 550px;
+    font-size: 1rem;
+    font-weight: 100;
+}
+.movie-title{
+    font-size: 2.6rem;
+    color: beige;
+    transform: translateY(-17px);
+    font-style: italic;
+}
+.movie-button{
+    height: 80px;
+    width: 300px;
+    background-color: rgb(0, 0, 0);
+    font-size:1.5rem;
+    font-weight: 200;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
